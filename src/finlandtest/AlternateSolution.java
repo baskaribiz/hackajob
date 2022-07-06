@@ -33,7 +33,7 @@ class AlternateSolution {
         int[] elementsArr = Arrays.stream(input[1].split(" ")).mapToInt(Integer::parseInt).toArray();  
                 
         // Converts to ArrayList
-        List<Integer> elementsList = Arrays.stream(elementsArr).boxed().collect(Collectors.toList());;
+        List<Integer> elementsList = Arrays.stream(elementsArr).boxed().collect(Collectors.toList());
         
         // Sort to Ascending Order
         Collections.sort(elementsList);
